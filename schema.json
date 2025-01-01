@@ -1,0 +1,122 @@
+{
+  "type": "object",
+  "properties": {
+    "CaseName": { "type": "string" },
+    "DateOfDecision": { "type": "string" },
+    "CourtJurisdiction": { "type": "string" },
+    "StateOrCircuit": { "type": "string" },
+    "JudgesOnBench": { "type": "array", "items": { "type": "string" } },
+    "Question6": {
+      "type": "object",
+      "properties": {
+        "IsUnconstitutionalStatementPresent": { "type": "boolean" },
+        "OpinionType": { "type": ["string", "null"] },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["IsUnconstitutionalStatementPresent", "Excerpts"]
+    },
+    "Question9": {
+      "type": "object",
+      "properties": {
+        "IsExceedingAuthorityClaimPresent": { "type": "boolean" },
+        "OpinionType": { "type": ["string", "null"] },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["IsExceedingAuthorityClaimPresent", "Excerpts"]
+    },
+    "Question12": {
+      "type": "object",
+      "properties": {
+        "IsMoralEthicalOppositionPresent": { "type": "boolean" },
+        "OpinionType": { "type": ["string", "null"] },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["IsMoralEthicalOppositionPresent", "Excerpts"]
+    },
+    "ReasonForCitingRoe": { "type": ["string", "null"] },
+    "SummaryOpinions": {
+      "type": "object",
+      "properties": {
+        "Majority": { "type": "string" },
+        "Dissenting": { "type": "array", "items": { "type": "string" } },
+        "Concurring": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["Majority"]
+    },
+    "LegislativeActionRecommendations": {
+      "type": "object",
+      "properties": {
+        "AreRecommendationsPresent": { "type": "boolean" },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["AreRecommendationsPresent", "Excerpts"]
+    },
+    "PublicOpinionAnalysis": {
+      "type": "object",
+      "properties": {
+        "IsPublicOpinionMentioned": { "type": "boolean" },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["IsPublicOpinionMentioned", "Excerpts"]
+    },
+    "PrecedentReferences": {
+      "type": "object",
+      "properties": {
+        "AreOtherPrecedentsReferenced": { "type": "boolean" },
+        "Precedents": { "type": "array", "items": { "type": "string" } },
+        "TreatmentOfRoe": { "type": ["string", "null"] }
+      },
+      "required": ["AreOtherPrecedentsReferenced", "Precedents"]
+    },
+    "OutcomeOrHolding": { "type": "string" },
+    "RoeAuthorityAnalysis": {
+      "type": "object",
+      "properties": {
+        "IsRoeBindingPersuasiveQuestioned": { "type": "boolean" },
+        "OpinionType": { "type": ["string", "null"] },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["IsRoeBindingPersuasiveQuestioned", "Excerpts"]
+    },
+    "OtherConstitutionalGrounds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "LegislativeDebatesAnalysis": {
+      "type": "object",
+      "properties": {
+        "AreDebatesMentioned": { "type": "boolean" },
+        "Excerpts": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["AreDebatesMentioned", "Excerpts"]
+    },
+    "FutureOutlook": {
+      "type": "object",
+      "properties": {
+        "IsFutureOutlookSuggested": { "type": "boolean" },
+        "Notes": { "type": ["string", "null"] }
+      },
+      "required": ["IsFutureOutlookSuggested"]
+    },
+    "AdditionalObservations": { "type": ["string", "null"] }
+  },
+  "required": [
+    "CaseName",
+    "DateOfDecision",
+    "CourtJurisdiction",
+    "StateOrCircuit",
+    "JudgesOnBench",
+    "Question6",
+    "Question9",
+    "Question12",
+    "SummaryOpinions",
+    "LegislativeActionRecommendations",
+    "PublicOpinionAnalysis",
+    "PrecedentReferences",
+    "OutcomeOrHolding",
+    "RoeAuthorityAnalysis",
+    "OtherConstitutionalGrounds",
+    "LegislativeDebatesAnalysis",
+    "FutureOutlook"
+  ]
+}

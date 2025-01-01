@@ -1,0 +1,44 @@
+Context: We are social science researchers studying how Roe v. Wade has been cited across different courts, times, and jurisdictions. We seek detailed yet consistent information from each case.
+Format Requirements:
+Answer each question in a new line under the corresponding number (or letter), without repeating the question.
+For yes/no questions, answer only "yes" or "no" (all lowercase). If you cannot determine an answer, write "No information found."
+When providing quotes/excerpts, limit them to 3–5 lines each.
+If the requested information is not found or not applicable, write "No information found."
+Level of Detail:
+Include exact names, excerpts from the decision, and indicate whether statements appear in the majority, dissenting, or concurring opinions (if applicable).
+Model Note:
+Apply advanced reasoning to parse nuanced or implicit critiques of Roe v. Wade.
+If the text is ambiguous, provide your best interpretation.
+
+Questions
+1. Case Name
+2. Date of Decision
+3. Court/Jurisdiction (e.g., Federal District Court, Circuit Court, State Supreme Court)
+4. State or Circuit in which the case was decided.
+5. Full Names of the Judges on the Bench (If not all are listed, provide whatever names are given.)
+6. Yes or No: Are there any statements suggesting that Roe v. Wade was unconstitutional?
+7. If the answer to Question 6 is yes, specify whether these statements appear in the majority, dissenting, or concurring opinions.
+8. If the answer to Question 6 is yes, provide excerpts.
+9. Yes or No: Does the opinion claim that Roe v. Wade exceeded judicial authority?
+10. If the answer to Question 9 is yes, specify whether these statements appear in the majority, dissenting, or concurring opinions.
+11. If the answer to Question 9 is yes, provide excerpts.
+12. Yes or No: Are there any statements indicating moral or ethical opposition to abortion as a fundamental right?
+13. If the answer to Question 12 is yes, specify whether these statements appear in the majority, dissenting, or concurring opinions.
+14. If the answer to Question 12 is yes, provide excerpts.
+15. Reason for citing Roe v. Wade (Why or how Roe is discussed.)
+16. Summary of Majority, Dissenting, and Concurring Opinions (Provide a concise description of each.)
+17. Yes or No: Were there any calls for legislative action or policy recommendations in the decision?
+18. If the answer to Question 17 is yes, provide excerpts.
+19. Yes or No: Did the court mention or consider public opinion regarding abortion?
+20. If the answer to Question 19 is yes, provide excerpts. 
+21. Yes or No: Did the opinion reference other precedents related to abortion?
+22. If the answer to Question 21 is yes, tell which ones and how did the court treat Roe v. Wade in light of those precedents?
+23. Outcome or Holding:What was the ultimate decision (e.g., affirmed, reversed, remanded) and Did citing Roe have a direct influence on that outcome?
+24. Yes or No: Was Roe v. Wade deemed binding, persuasive, or questioned authority?
+25. If the answer to Question 24 is yes, in which opinion (majority, dissenting, or concurring) is this discussed?
+26. If the answer to Question 24 is yes, provide excerpts if applicable
+27. References to Other Constitutional Grounds: If the case specifically cites other Amendments or legal doctrines alongside Roe (e.g., Fourteenth Amendment, privacy rights, due process), list them.
+28. Yes or No: Does the case mention any state or federal legislative debates on abortion (e.g., mention of specific bills)?
+29. If the answer to Question 28 is yes, provide excerpts.
+30. Future Outlook: Did the court suggest possible changes in abortion jurisprudence or invite future legal challenges?
+31. Any Additional Observations: If there’s anything else noteworthy about how Roe is treated, add a short note here.
